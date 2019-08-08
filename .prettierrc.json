@@ -1,0 +1,30 @@
+{
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "rules": {
+    "no-restricted-syntax": "off",
+    "vars-on-top": "off",
+    "no-use-before-define": "off",
+    "no-var": "off",
+    "lines-around-directive": "off",
+    "strict": "off",
+    "no-underscore-dangle": "off",
+    "spaced-comment": "off",
+    "no-throw-literal": "off",
+    "prefer-const": "off",
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "import/newline-after-import": "warn",
+    "default-case": "warn",
+    "no-unused-vars": "warn",
+    "import/order": "warn",
+    "no-param-reassign": "warn",
+    "array-callback-return": "warn",
+    "dot-notation": "warn",
+    "prefer-destructuring": "warn",
+    "prettier/prettier": "warn",
+    "global-require": "warn",
+    "consistent-return": "warn",
+    "max-statements": ["warn", 30, { "ignoreTopLevelFunctions": true }],
+    "eslint-disable-next-line": "warn"
+  }
+}
